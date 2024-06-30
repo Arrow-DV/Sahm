@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    padding: 15px;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+#main_image {
+    border-radius: 5px;
+}
+
+#social-layout h3 {
+    font-size: 50px;
+}
+
+#social-layout img {
+    border-radius: 10px;
+}
+
+#circle {
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: all 450ms;
+}
+
+#circle:hover {
+    background-color: lime;
+}
+
+@media screen and (max-width: 768px) {
+    #main_image {
+        width: 100%;
+    }
+
+    #logo {
+        width: 256px;
+    }
+
+    #image {
+        width: 65px;
+    }
+
+    #social-layout h3 {
+        font-size: 40px;
+    }
+
+    #bio {
+        text-align: center;
+    }
+
+    #bio h1 {
+        font-size: 24px;
+    }
+
+    #bio p {
+        padding: 0;
+    }
+
+    #Certificates .row .col {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #main_image {
+        width: 100%;
+    }
+
+    #logo {
+        width: 256px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #main_image {
+        width: 100%;
+    }
+
+    #logo {
+        width: 256px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #main_image {
+        width: 100%;
+    }
+
+    #logo {
+        width: 256px;
+    }
+}
+
